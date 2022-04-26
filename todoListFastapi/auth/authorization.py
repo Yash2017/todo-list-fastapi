@@ -10,6 +10,7 @@ auth = APIRouter(
     tags=["auth"],
     responses={404: {"description": "Not found"}},
 )
+
 fake_users_db = {
     "johndoe": {
         "username": "johndoe",
@@ -54,7 +55,7 @@ async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(
 
 @auth.post("/signup")
 async def read_user_me(userInfo:profile_schema):
-    users = await get_user()
+    users = await get_user(userInfo.username)
     if users:
         raise HTTPException(status_code=400, detail="Username already exists. Please login using that username")
     userInfo.password = get_password_hash(userInfo.password)
