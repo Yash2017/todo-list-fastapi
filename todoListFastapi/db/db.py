@@ -1,11 +1,5 @@
-import json
-from turtle import update
-from fastapi import FastAPI, HTTPException
-from fastapi.encoders import jsonable_encoder
-import tornado.ioloop
-import tornado.web
+from fastapi import HTTPException
 import motor.motor_tornado
-import asyncio
 from bson import ObjectId
 import motor.motor_asyncio
 from .jsonEncoder import *
@@ -42,21 +36,31 @@ async def insert_todo(todo_info):
     result = await todo_collection.insert_one(todo_info)
     return result
 
+def get_bson_object_id(todo_id):
+    try:
+        object_id = ObjectId(todo_id)
+        return object_id
+    except:
+        raise HTTPException(status_code=400, detail="Invalid todo id")
+
+
 async def find_todo(todo_id):
-    found_todo = await todo_collection.find_one({"_id": ObjectId(todo_id)}, {"_id": 0})
+    found_todo = await todo_collection.find_one({"_id": todo_id}, {"_id": 0})
     if not found_todo:
         raise HTTPException(status_code=400, detail="The todo does not exist")
     else: 
         return True
 
 async def update_todo_db(todo_id, updated_data):
+    todo_id = get_bson_object_id(todo_id)
     await find_todo(todo_id)
-    result = await todo_collection.update_one({"_id": ObjectId(todo_id)}, {"$set": updated_data})
+    result = await todo_collection.update_one({"_id": todo_id}, {"$set": updated_data})
     return result
         
 
 async def delete_todo_db(todo_id):
+    todo_id = get_bson_object_id(todo_id)
     await find_todo(todo_id)
-    result = await todo_collection.delete_one({"_id": ObjectId(todo_id)})
+    result = await todo_collection.delete_one({"_id": todo_id})
     return result
  
