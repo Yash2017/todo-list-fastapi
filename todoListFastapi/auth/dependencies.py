@@ -17,10 +17,16 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/token")
+
+
 def verify_password(plain_password, hashed_password):
     return pwd_context.verify(plain_password, hashed_password)
+
+
 def get_password_hash(password):
     return pwd_context.hash(password)
+
+
 async def get_user(username: str):
     db = await get_user_from_collection()
     #print(db)
@@ -71,6 +77,7 @@ async def get_current_user(token: str = Depends(oauth2_scheme)):
     except JWTError:
         raise credentials_exception
     user = get_user(username=token_data.username)
+    print(user)
     if user is None:
         raise credentials_exception
     return user

@@ -4,39 +4,12 @@ from fastapi.encoders import jsonable_encoder
 from .dependencies import *
 from db.db import *
 from schema.profile_schema.profile_schema import profile_schema
-
+from schema.token_schema.token_schema import Token
 auth = APIRouter(
     prefix="/auth",
     tags=["auth"],
     responses={404: {"description": "Not found"}},
 )
-
-fake_users_db = {
-    "johndoe": {
-        "username": "johndoe",
-        "full_name": "John Doe",
-        "email": "johndoe@example.com",
-        "hashed_password": "$2a$12$sZKW5DqvQzPDpR0IOhQNNu.gVdnnMdlZ3EhIv4FmHAfmDuam6EPyy",
-        "disabled": False,
-    }
-}
-
-class Token(BaseModel):
-    access_token: str
-    token_type: str
-
-
-class TokenData(BaseModel):
-    username: Optional[str] = None
-
-
-class User(BaseModel):
-    username: str
-    password: str
-
-class UserInDB(User):
-    hashed_password: str
-
 
 @auth.post("/token", response_model=Token)
 async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()):

@@ -1,11 +1,11 @@
 from fastapi import FastAPI
 from auth.authorization import *
-# to get a string like this run:
-# openssl rand -hex 32
+from todo.mainTodo import *
 
 todoListFastapi = FastAPI()
 
 todoListFastapi.include_router(auth)
+todoListFastapi.include_router(todoRoute)
 
 @todoListFastapi.get("/")
 async def root():
