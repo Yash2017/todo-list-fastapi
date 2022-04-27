@@ -1,26 +1,18 @@
-from datetime import datetime, timedelta
-from typing import Optional
-
-from fastapi import Depends, FastAPI, HTTPException, status
-from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
+from fastapi import Depends, HTTPException, status
+from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
 from passlib.context import CryptContext
-from pydantic import BaseModel
-from db.db import get_user_from_collection
-from schema.profile_schema.profile_schema import profile_schema
+from db.db import get_user_from_db
 from schema.token_schema.token_schema import TokenData
-# to get a string like this run:
-# openssl rand -hex 32
+
 SECRET_KEY = "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"
 ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/token")
 
 async def get_user(username: str):
-    db = await get_user_from_collection()
-    #print(db)
+    db = await get_user_from_db()
     for user in db:
         if user["username"] == username:
             return user
