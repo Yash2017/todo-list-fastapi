@@ -3,6 +3,7 @@ import motor.motor_tornado
 from bson import ObjectId
 import motor.motor_asyncio
 from .jsonEncoder import *
+from redis.redis_helper import find_todo_in_redis
 
 # replace this with your MongoDB connection string
 conn_str = "mongodb+srv://yashkakade:yashkakade@bug-tracker.np7pj.mongodb.net/todo-list-fastapi?retryWrites=true&w=majority"
@@ -44,23 +45,26 @@ def get_bson_object_id(todo_id):
         raise HTTPException(status_code=400, detail="Invalid todo id")
 
 
-async def find_todo(todo_id):
+async def find_todo(todo_id, current_user):
+    result = await find_todo_in_redis(current_user, todo_id)
+    if result:
+        return True
     found_todo = await todo_collection.find_one({"_id": todo_id}, {"_id": 0})
     if not found_todo:
         raise HTTPException(status_code=400, detail="The todo does not exist")
     else: 
         return True
 
-async def update_todo_db(todo_id, updated_data):
+async def update_todo_db(todo_id, updated_data, current_user):
     todo_id = get_bson_object_id(todo_id)
-    await find_todo(todo_id)
+    await find_todo(todo_id, current_user)
     result = await todo_collection.update_one({"_id": todo_id}, {"$set": updated_data})
     return result
         
 
-async def delete_todo_db(todo_id):
+async def delete_todo_db(todo_id, current_user):
     todo_id = get_bson_object_id(todo_id)
-    await find_todo(todo_id)
+    await find_todo(todo_id, current_user)
     result = await todo_collection.delete_one({"_id": todo_id})
     return result
  
