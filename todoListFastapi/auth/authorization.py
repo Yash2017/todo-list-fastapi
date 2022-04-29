@@ -1,6 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.security import OAuth2PasswordRequestForm
 from fastapi.encoders import jsonable_encoder
+from empty_checker.empty_checker import empty_checker
 from .dependencies import *
 from db.db import create_user
 from schema.profile_schema.profile_schema import profile_schema
@@ -23,6 +24,8 @@ async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(
 
 @auth.post("/signup")
 async def read_user_me(userInfo:profile_schema):
+    empty_checker(userInfo.username, "Username")
+    empty_checker(userInfo.password, "Password")
     users = await get_user(userInfo.username)
     if users:
         raise HTTPException(status_code=400, detail="Username already exists. Please login using that username")

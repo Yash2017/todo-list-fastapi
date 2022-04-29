@@ -1,9 +1,13 @@
+from http.client import HTTPException
 import json
 import aioredis
 
 async def get_redis_client():
-    redis = await aioredis.from_url("redis://localhost:6379", decode_responses=True, max_connections=10)
-    return redis
+    try:
+        redis = await aioredis.from_url("redis://localhost:6379", decode_responses=True, max_connections=10)
+        return redis
+    except:
+        raise HTTPException(status_code=500, detail="Internal Server Error")
 
 async def get_redis_value(current_user):
     redis = await get_redis_client()
@@ -24,8 +28,6 @@ async def find_todo_in_redis(current_user, todo_id):
     if redis_todo_value:
         for todo in redis_todo_value:
             if str(todo_id) == todo["_id"]:
-                print(todo)
-                print("found")
                 return True
         return False
     else:
