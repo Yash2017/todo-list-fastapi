@@ -1,26 +1,20 @@
 import json, logging
 
-
-def get_app_log(record):
+def get_response_log(record):
     json_obj = {
                 'todoListFastapi': {
                     'log': {
                         'level': record.levelname,
-                        'type': 'app',
+                        'type': 'access',
                         'timestamp': record.asctime,
-                        'filename': record.filename,
-                        'pathname': record.pathname,
-                        'line': record.lineno,
-                        'threadId': record.thread,
                         'message': record.message
-                        }
+                        },
+                'res': record.extra_info['res'],
                     }
                 }
-
     return json_obj
 
-
-def get_access_log(record):
+def get_request_log(record):
     json_obj = {
                 'todoListFastapi': {
                     'log': {
@@ -30,7 +24,6 @@ def get_access_log(record):
                         'message': record.message
                         },
                 'req': record.extra_info['req'],
-                'res': record.extra_info['res']
                     }
                 }
 
@@ -38,13 +31,9 @@ def get_access_log(record):
 
 
 class CustomFormatter(logging.Formatter):
-
     def __init__(self, formatter):
         logging.Formatter.__init__(self, formatter)
     
     def format(self, record):
         logging.Formatter.format(self, record)
-        if not hasattr(record, 'extra_info'):
-            return json.dumps(get_app_log(record), indent=2)
-        else:
-            return json.dumps(get_access_log(record), indent=2)
+        return json.dumps(get_response_log(record), indent=2)

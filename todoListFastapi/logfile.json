@@ -323,3 +323,419 @@
     }
   }
 }
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-29 13:27:02,576",
+      "message": "PUT /todo/update-todo"
+    },
+    "req": {
+      "url": "/todo/update-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "PUT",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/update-todo",
+      "query": "hey"
+    },
+    "res": {
+      "statusCode": "response.status_code",
+      "body": {
+        "statusCode": 200,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-29 13:29:40,596",
+      "message": "PUT /todo/update-todo"
+    },
+    "req": {
+      "url": "/todo/update-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "PUT",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/update-todo",
+      "query": "hey"
+    },
+    "res": {
+      "statusCode": "response.status_code",
+      "body": {
+        "statusCode": 200,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-29 13:46:28,495",
+      "message": "PUT /todo/update-todo"
+    },
+    "req": {
+      "url": "/todo/update-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "PUT",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/update-todo",
+      "query": "hey"
+    },
+    "res": {
+      "statusCode": "response.status_code",
+      "body": {
+        "statusCode": 200,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-29 13:47:02,664",
+      "message": "PUT /todo/update-todo"
+    },
+    "req": {
+      "url": "/todo/update-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "PUT",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/update-todo",
+      "query": "hey"
+    },
+    "res": {
+      "statusCode": "response.status_code",
+      "body": {
+        "statusCode": 200,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-29 13:48:51,115",
+      "message": "PUT /todo/update-todo"
+    },
+    "req": {
+      "url": "/todo/update-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "PUT",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/update-todo",
+      "query": "hey"
+    },
+    "res": {
+      "statusCode": "response.status_code",
+      "body": {
+        "statusCode": 200,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-29 13:48:58,011",
+      "message": "PUT /todo/update-todo"
+    },
+    "req": {
+      "url": "/todo/update-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "PUT",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/update-todo",
+      "query": "hey"
+    },
+    "res": {
+      "statusCode": "response.status_code",
+      "body": {
+        "statusCode": 200,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 01:38:48,584",
+      "message": "GET /todo/get-todo"
+    },
+    "req": {
+      "url": "/todo/get-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/get-todo",
+      "query": "hey"
+    },
+    "res": {
+      "statusCode": "response.status_code",
+      "body": {
+        "statusCode": 200,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 01:40:16,571",
+      "message": "GET /todo/get-todo"
+    },
+    "req": {
+      "url": "/todo/get-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/get-todo",
+      "query": "hey"
+    },
+    "res": {
+      "statusCode": 401,
+      "body": {
+        "statusCode": 401,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 01:40:57,224",
+      "message": "GET /todo/get-todo"
+    },
+    "req": {
+      "url": "/todo/get-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/get-todo",
+      "query": "hey"
+    },
+    "res": {
+      "statusCode": 401,
+      "body": {
+        "statusCode": 401,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 01:41:40,567",
+      "message": "request.method + ' ' + request.url.path"
+    },
+    "req": {
+      "url": "/todo/get-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/get-todo",
+      "query": "hey"
+    },
+    "res": {
+      "statusCode": 401,
+      "body": {
+        "statusCode": 401,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 01:46:16,950",
+      "message": "request.method + ' ' + request.url.path"
+    },
+    "res": {
+      "statusCode": 401,
+      "body": {
+        "statusCode": 401,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 01:54:19,012",
+      "message": "request.method + ' ' + request.url.path"
+    },
+    "res": {
+      "statusCode": 401,
+      "body": {
+        "statusCode": 401,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 01:58:04,691",
+      "message": "request.method + ' ' + request.url.path"
+    },
+    "res": {
+      "statusCode": 401,
+      "body": {
+        "statusCode": 401,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 02:02:27,643",
+      "message": "request.method + ' ' + request.url.path"
+    },
+    "res": {
+      "statusCode": 401,
+      "body": {
+        "statusCode": 401,
+        "status": "OK"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 02:04:18,630",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 401,
+      "body": "response_body"
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 02:04:48,577",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 401,
+      "body": "response_body"
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 02:07:56,118",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 401,
+      "body": "{\"detail\":\"Not authenticated\"}"
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 02:08:49,237",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 401,
+      "body": {
+        "detail": "Not authenticated"
+      }
+    }
+  }
+}

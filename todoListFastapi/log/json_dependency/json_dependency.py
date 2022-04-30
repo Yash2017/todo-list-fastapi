@@ -3,7 +3,7 @@ from fastapi.routing import APIRoute
 from typing import Callable
 from ..get_json_logger.get_json_logger import get_logger
 from ..formattor.json_app_logger_formatter import CustomFormatter
-from ..log_maker.log_maker import log_maker
+from ..response_log_maker.response_log_maker import log_maker
 
 formatter = CustomFormatter('%(asctime)s')
 logger = get_logger(__name__, formatter)

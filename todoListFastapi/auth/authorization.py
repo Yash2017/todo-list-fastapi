@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.security import OAuth2PasswordRequestForm
 from fastapi.encoders import jsonable_encoder
-from empty_checker.empty_checker import empty_checker
+from helper_functions.empty_checker.empty_checker import empty_checker
 from .dependencies import *
 from db.db import create_user
 from schema.profile_schema.profile_schema import profile_schema

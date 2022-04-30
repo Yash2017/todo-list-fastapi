@@ -1,4 +1,4 @@
-async def log_maker(request):
+def request_log_maker(request):
     return {
             'req': {
                     'url': request.url.path,
@@ -10,13 +10,7 @@ async def log_maker(request):
                     'method': request.method,
                     'httpVersion': request.scope['http_version'],
                     'originalUrl': request.url.path,
-                    'query': "hey"#await request.json()
-                    },
-            'res': {
-                    'statusCode': "response.status_code", 
-                    'body': {
-                            'statusCode': 200,
-                            'status': 'OK'
-                            }
+                    'query': "hey"
                     }
             }
+                    
