@@ -276,3 +276,1147 @@
     }
   }
 }
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 02:52:12,959",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 02:52:34,963",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 02:53:10,067",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 02:55:57,368",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 02:58:01,175",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 02:58:36,733",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 02:59:21,283",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:00:04,645",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:01:13,888",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:02:01,467",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:03:58,427",
+      "message": "GET /todo/get-todo"
+    },
+    "req": {
+      "url": "/todo/get-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/get-todo",
+      "query": "await request.body()"
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:03:59,003",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:04:24,560",
+      "message": "GET /todo/get-todo"
+    },
+    "req": {
+      "url": "/todo/get-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/get-todo",
+      "query": "await request.body()"
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:04:25,037",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:05:03,249",
+      "message": "GET /todo/get-todo"
+    },
+    "req": {
+      "url": "/todo/get-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/get-todo",
+      "query": "await request.body()"
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:05:03,761",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:05:30,350",
+      "message": "GET /todo/get-todo"
+    },
+    "req": {
+      "url": "/todo/get-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/get-todo",
+      "query": "await request.body()"
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:05:30,876",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 200,
+      "body": [
+        {
+          "_id": "62687d3535c15e6d7c3ad6bd",
+          "title": "hey 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687da19f8dffab55cf51f5",
+          "title": "test",
+          "description": "test1",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62687f7cbe1594cde991b80f",
+          "title": "asjkdjfsak",
+          "description": "ajfkdsfkas",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "62694a26675d8cd6e4426a4a",
+          "title": "as",
+          "description": "testaskaljf",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626ac700e05074b85bd5ec26",
+          "title": "hey test 1000",
+          "description": "hey whatsapp",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abcf8c5ec42b7bca7d0",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        },
+        {
+          "_id": "626b3abef8c5ec42b7bca7d1",
+          "title": "Yash",
+          "description": "Kakade",
+          "owner": "yashkakade",
+          "completed": false
+        }
+      ]
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:07:24,496",
+      "message": "PUT /todo/update-todo"
+    },
+    "req": {
+      "url": "/todo/update-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "PUT",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/update-todo",
+      "query": "await request.body()"
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:07:25,029",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 400,
+      "body": {
+        "detail": "Invalid todo id"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:09:53,467",
+      "message": "PUT /todo/update-todo"
+    },
+    "req": {
+      "url": "/todo/update-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "PUT",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/update-todo",
+      "query": {
+        "id": "string",
+        "title": "string",
+        "description": "string"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:09:53,990",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 400,
+      "body": {
+        "detail": "Invalid todo id"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:10:09,129",
+      "message": "PUT /todo/update-todo"
+    },
+    "req": {
+      "url": "/todo/update-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "PUT",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/update-todo",
+      "query": {
+        "id": "string",
+        "title": "string",
+        "description": "string"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:10:09,608",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 400,
+      "body": {
+        "detail": "Invalid todo id"
+      }
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:10:26,438",
+      "message": "GET /todo/get-todo"
+    },
+    "req": {
+      "url": "/todo/get-todo",
+      "headers": {
+        "host": "localhost:8000",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "accept": "application/json"
+      },
+      "method": "GET",
+      "httpVersion": "1.1",
+      "originalUrl": "/todo/get-todo",
+      "query": "No query as this is a GET request"
+    }
+  }
+}
+{
+  "todoListFastapi": {
+    "log": {
+      "level": "INFO",
+      "type": "access",
+      "timestamp": "2022-04-30 03:10:26,440",
+      "message": "This is the response"
+    },
+    "res": {
+      "statusCode": 401,
+      "body": {
+        "detail": "Could not validate credentials"
+      }
+    }
+  }
+}

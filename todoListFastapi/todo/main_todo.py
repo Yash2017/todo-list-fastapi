@@ -1,4 +1,3 @@
-import profile
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.encoders import jsonable_encoder
 from schema.todo_schema.todo_schema import todo_schema
@@ -33,7 +32,6 @@ async def create_todo(input_todo:todo_schema, current_user = Depends(get_current
 async def get_todo(current_user = Depends(get_current_user)):
     redis_todo_data = await get_redis_value(current_user)
     if redis_todo_data:
-        print(redis_todo_data)
         return redis_todo_data
     todos = await get_todo_from_db(current_user)
     await set_redis_value(current_user, todos)

@@ -1,5 +1,4 @@
-async def request_log_maker(request):
-        
+def request_log_maker(request, request_body):
         return {
             'req': {
                     'url': request.url.path,
@@ -11,7 +10,7 @@ async def request_log_maker(request):
                     'method': request.method,
                     'httpVersion': request.scope['http_version'],
                     'originalUrl': request.url.path,
-                    'query': "await request.json()"
+                    'query': request_body
                     }
             }
                     
