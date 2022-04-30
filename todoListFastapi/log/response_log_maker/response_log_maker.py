@@ -1,6 +1,3 @@
-
-
-import re
 import json
 def response_log_maker(response, response_body):
         return {

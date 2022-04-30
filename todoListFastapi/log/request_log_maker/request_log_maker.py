@@ -1,5 +1,6 @@
-def request_log_maker(request):
-    return {
+async def request_log_maker(request):
+        
+        return {
             'req': {
                     'url': request.url.path,
                     'headers': {
@@ -10,7 +11,7 @@ def request_log_maker(request):
                     'method': request.method,
                     'httpVersion': request.scope['http_version'],
                     'originalUrl': request.url.path,
-                    'query': "hey"
+                    'query': "await request.json()"
                     }
             }
                     

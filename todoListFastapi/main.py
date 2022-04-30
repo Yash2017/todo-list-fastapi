@@ -5,18 +5,19 @@ from log.formattor.json_app_logger_formatter import CustomFormatter
 from log.get_json_logger.get_json_logger import get_logger
 from log.response_log_maker.response_log_maker import response_log_maker
 from helper_functions.response_body_getter.response_body_getter import response_body_getter
+from log.json_dependency.json_dependency import log_dependency
 from starlette.background import BackgroundTask
 
 formatter = CustomFormatter('%(asctime)s')
 logger = get_logger(__name__, formatter)
-
-todoListFastapi = FastAPI()
+todoListFastapi = FastAPI(dependencies=[Depends(log_dependency)])
 
 todoListFastapi.include_router(auth)
 todoListFastapi.include_router(todo_route)
 
 async def write_log_data(response, response_body):
-    logger.info("This is the response", extra={'extra_info': response_log_maker(response, response_body)})
+    print(response_log_maker(response, response_body))
+    logger.info("This is the response", extra={'extra_info': response_log_maker(response, response_body), 'res':'true'})
 
 @todoListFastapi.middleware("http")
 async def log_request(request: Request, call_next):

@@ -36,4 +36,7 @@ class CustomFormatter(logging.Formatter):
     
     def format(self, record):
         logging.Formatter.format(self, record)
-        return json.dumps(get_response_log(record), indent=2)
+        if record.res == "true":
+            return json.dumps(get_response_log(record), indent=2)
+        else:
+            return json.dumps(get_request_log(record), indent=2)
