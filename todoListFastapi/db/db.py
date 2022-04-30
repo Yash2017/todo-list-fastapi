@@ -3,7 +3,7 @@ from fastapi import HTTPException
 import motor.motor_tornado
 from bson import ObjectId
 import motor.motor_asyncio
-from helper_functions.json_ecoder import json_ecoder
+from helper_functions.json_encoder.json_encoder import JSONEncoder
 from redis.redis_helper import find_todo_in_redis
 
 # replace this with your MongoDB connection string
@@ -24,14 +24,14 @@ async def get_user_from_db():
     users = []
     users_from_db = user_collection.find({}).max_time_ms(12)
     async for user in users_from_db:
-        users.append(json_ecoder().encode(user))
+        users.append(JSONEncoder().encode(user))
     return users
 
 async def get_todo_from_db(user):
     todos = []
     todo_from_db = todo_collection.find({"owner": user}).max_time_ms(12)
     async for todo in todo_from_db:
-        todos.append(json_ecoder().encode(todo))
+        todos.append(JSONEncoder().encode(todo))
     return todos
 
 async def insert_todo(todo_info):

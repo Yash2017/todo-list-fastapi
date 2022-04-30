@@ -8,7 +8,7 @@ logger = get_logger(__name__, formatter)
 async def json_request_dependency(request: Request):
     if request.method != "GET":
         request_body = await request.json()
-        logger.info(request.method + ' ' + request.url.path, extra={'extra_info': request_log_maker(request, request_body), 'res': 'false'})
+        return logger.info(request.method + ' ' + request.url.path, extra={'extra_info': request_log_maker(request, request_body), 'res': 'false'})
     else:
-        logger.info(request.method + ' ' + request.url.path, extra={'extra_info': request_log_maker(request, "No query as this is a GET request"), 'res': 'false'})
+        return logger.info(request.method + ' ' + request.url.path, extra={'extra_info': request_log_maker(request, "No query as this is a GET request"), 'res': 'false'})
 

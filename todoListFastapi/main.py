@@ -2,12 +2,11 @@ from fastapi import FastAPI, Request, Response
 from auth.authorization import *
 from todo.main_todo import *
 from helper_functions.response_body_getter.response_body_getter import response_body_getter
-from log.json_request_dependency.json_request_dependency import json_request_dependency
 from starlette.background import BackgroundTask
 from log.json_response_dependency.json_response_dependency import json_response_dependency
 
-todoListFastapi = FastAPI(dependencies=[Depends(json_request_dependency)])
-
+#todoListFastapi = FastAPI(dependencies=[Depends(json_request_dependency)])
+todoListFastapi = FastAPI()
 todoListFastapi.include_router(auth)
 todoListFastapi.include_router(todo_route)
 

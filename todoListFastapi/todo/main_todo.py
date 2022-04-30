@@ -6,6 +6,7 @@ from schema.todo_schema.delete_todo_schema import delete_todo_schema
 from redis.redis_helper import get_redis_value
 from redis.redis_helper import set_redis_value
 from helper_functions.empty_checker.empty_checker import empty_checker
+from log.json_request_dependency.json_request_dependency import json_request_dependency
 from .dependencies import get_current_user
 from db.db import *
 
@@ -13,7 +14,7 @@ todo_route = APIRouter(
     prefix="/todo",
     tags=["todo"],
     responses={404: {"description": "Not found"}},
-    dependencies=[Depends(get_current_user)],
+    dependencies=[Depends(get_current_user), Depends(json_request_dependency)],
 )
 
 @todo_route.post("/create-todo")

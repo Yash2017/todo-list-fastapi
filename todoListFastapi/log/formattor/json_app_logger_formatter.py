@@ -1,7 +1,7 @@
 import json, logging
 
 def get_response_log(record):
-    json_obj = {
+    json_obj = [{
                 'todoListFastapi': {
                     'log': {
                         'level': record.levelname,
@@ -11,11 +11,11 @@ def get_response_log(record):
                         },
                 'res': record.extra_info['res'],
                     }
-                }
+                }]
     return json_obj
 
 def get_request_log(record):
-    json_obj = {
+    json_obj = [{
                 'todoListFastapi': {
                     'log': {
                         'level': record.levelname,
@@ -25,7 +25,7 @@ def get_request_log(record):
                         },
                 'req': record.extra_info['req'],
                     }
-                }
+                }]
 
     return json_obj
 
