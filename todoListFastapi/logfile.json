@@ -2571,3 +2571,6268 @@
     }
   }
 ]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 11:09:41,414",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "",
+          "password": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 11:09:41,419",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username cannot be empty"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 11:09:42,971",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "",
+          "password": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 11:09:42,973",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username cannot be empty"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 11:09:43,540",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "",
+          "password": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 11:09:43,542",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username cannot be empty"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 11:09:43,939",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "",
+          "password": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 11:09:43,940",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username cannot be empty"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 11:10:19,890",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "",
+          "password": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 11:10:19,892",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username cannot be empty"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:36:59,190",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "",
+          "password": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:36:59,194",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username cannot be empty"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:37:02,893",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "message": "Hello Bigger Todo Application!"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:41:58,778",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "",
+          "password": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:41:58,782",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username cannot be empty"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:44:13,589",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "afsdfadsfa",
+          "password": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:44:13,600",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Password cannot be empty"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:45:29,096",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "a;sjfk",
+          "password": "sdklf;kaf"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:45:30,018",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "User Account Created"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:46:24,076",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "a;sjfk",
+          "password": "sdklf;kaf"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:46:24,128",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username already exists. Please login using that username"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:46:48,718",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "a;sjfk",
+          "password": "sdklfaf"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:46:48,767",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username already exists. Please login using that username"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:50:38,546",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "a;sjfk",
+          "password": "sdklfaf"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:50:38,592",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username already exists. Please login using that username"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:54:32,459",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "openapi": "3.0.2",
+          "info": {
+            "title": "FastAPI",
+            "version": "0.1.0"
+          },
+          "paths": {
+            "/auth/login": {
+              "post": {
+                "tags": [
+                  "auth"
+                ],
+                "summary": "Login For Access Token",
+                "operationId": "login_for_access_token_auth_login_post",
+                "requestBody": {
+                  "content": {
+                    "application/x-www-form-urlencoded": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Body_login_for_access_token_auth_login_post"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/Token"
+                        }
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "/auth/signup": {
+              "post": {
+                "tags": [
+                  "auth"
+                ],
+                "summary": "Read User Me",
+                "operationId": "read_user_me_auth_signup_post",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/profile_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "/todo/create-todo": {
+              "post": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Create Todo",
+                "operationId": "create_todo_todo_create_todo_post",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/todo_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/todo/get-todo": {
+              "get": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Get Todo",
+                "operationId": "get_todo_todo_get_todo_get",
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/todo/update-todo": {
+              "put": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Update Todo",
+                "operationId": "update_todo_todo_update_todo_put",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/update_todo_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/todo/delete-todo": {
+              "delete": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Delete Todo",
+                "operationId": "delete_todo_todo_delete_todo_delete",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/delete_todo_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/": {
+              "get": {
+                "summary": "Root",
+                "operationId": "root__get",
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "components": {
+            "schemas": {
+              "Body_login_for_access_token_auth_login_post": {
+                "title": "Body_login_for_access_token_auth_login_post",
+                "required": [
+                  "username",
+                  "password"
+                ],
+                "type": "object",
+                "properties": {
+                  "grant_type": {
+                    "title": "Grant Type",
+                    "pattern": "password",
+                    "type": "string"
+                  },
+                  "username": {
+                    "title": "Username",
+                    "type": "string"
+                  },
+                  "password": {
+                    "title": "Password",
+                    "type": "string"
+                  },
+                  "scope": {
+                    "title": "Scope",
+                    "type": "string",
+                    "default": ""
+                  },
+                  "client_id": {
+                    "title": "Client Id",
+                    "type": "string"
+                  },
+                  "client_secret": {
+                    "title": "Client Secret",
+                    "type": "string"
+                  }
+                }
+              },
+              "HTTPValidationError": {
+                "title": "HTTPValidationError",
+                "type": "object",
+                "properties": {
+                  "detail": {
+                    "title": "Detail",
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/ValidationError"
+                    }
+                  }
+                }
+              },
+              "Token": {
+                "title": "Token",
+                "required": [
+                  "access_token",
+                  "token_type"
+                ],
+                "type": "object",
+                "properties": {
+                  "access_token": {
+                    "title": "Access Token",
+                    "type": "string"
+                  },
+                  "token_type": {
+                    "title": "Token Type",
+                    "type": "string"
+                  }
+                },
+                "token_type": "bearer",
+                "access_token": "access_token"
+              },
+              "ValidationError": {
+                "title": "ValidationError",
+                "required": [
+                  "loc",
+                  "msg",
+                  "type"
+                ],
+                "type": "object",
+                "properties": {
+                  "loc": {
+                    "title": "Location",
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "integer"
+                        }
+                      ]
+                    }
+                  },
+                  "msg": {
+                    "title": "Message",
+                    "type": "string"
+                  },
+                  "type": {
+                    "title": "Error Type",
+                    "type": "string"
+                  }
+                }
+              },
+              "delete_todo_schema": {
+                "title": "delete_todo_schema",
+                "required": [
+                  "id"
+                ],
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "title": "Id",
+                    "type": "string"
+                  }
+                },
+                "id": "Todo Id"
+              },
+              "profile_schema": {
+                "title": "profile_schema",
+                "required": [
+                  "username",
+                  "password"
+                ],
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "title": "Username",
+                    "type": "string"
+                  },
+                  "password": {
+                    "title": "Password",
+                    "type": "string"
+                  }
+                },
+                "example": {
+                  "username": "yashkakade",
+                  "password": "yashkakade"
+                }
+              },
+              "todo_schema": {
+                "title": "Homework",
+                "required": [
+                  "title",
+                  "description"
+                ],
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "title": "Title",
+                    "type": "string"
+                  },
+                  "description": {
+                    "title": "Description",
+                    "type": "string"
+                  },
+                  "owner": {
+                    "title": "Owner",
+                    "type": "string"
+                  },
+                  "completed": {
+                    "title": "Completed",
+                    "type": "boolean"
+                  }
+                },
+                "description": "Computer Homework",
+                "completed": false,
+                "owner": "yash"
+              },
+              "update_todo_schema": {
+                "title": "Updated Homeword",
+                "required": [
+                  "id"
+                ],
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "title": "Id",
+                    "type": "string"
+                  },
+                  "title": {
+                    "title": "Title",
+                    "type": "string"
+                  },
+                  "description": {
+                    "title": "Description",
+                    "type": "string"
+                  }
+                },
+                "description": "Updated Description"
+              }
+            },
+            "securitySchemes": {
+              "OAuth2PasswordBearer": {
+                "type": "oauth2",
+                "flows": {
+                  "password": {
+                    "scopes": {},
+                    "tokenUrl": "auth/login"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:54:46,811",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Incorrect username"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:54:56,951",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Incorrect username"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:55:11,603",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Incorrect password"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:55:23,970",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ5YXNoa2FrYWRlIiwiZXhwIjoxNjUxMzUwMzIzfQ.n1tlh939g052Tl93JSJSNwHNkSJBvBnegat2_mGTOoE",
+          "token_type": "bearer"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:59:48,184",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Incorrect username"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 15:59:52,161",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Incorrect username"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 16:04:21,082",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Not authenticated"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 16:05:24,417",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 422,
+        "body": {
+          "detail": [
+            {
+              "loc": [
+                "body",
+                50
+              ],
+              "msg": "Expecting property name enclosed in double quotes: line 4 column 1 (char 50)",
+              "type": "value_error.jsondecode",
+              "ctx": {
+                "msg": "Expecting property name enclosed in double quotes",
+                "doc": "{\n  \"title\": \"string\",\n  \"description\": \"string\",\n}",
+                "pos": 50,
+                "lineno": 4,
+                "colno": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 16:05:32,999",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Not authenticated"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 16:36:14,856",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ5YXNoa2FrYWRlIiwiZXhwIjoxNjUxMzUyNzc0fQ.1Vg4eC9xGo5xj2fEoPg8HrG-uU0DeWM_0rhEAv7141A",
+          "token_type": "bearer"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 16:36:27,176",
+        "message": "POST /todo/create-todo"
+      },
+      "req": {
+        "url": "/todo/create-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Mobile Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/create-todo",
+        "query": {
+          "title": "string",
+          "description": "string"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 16:36:27,234",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "Todo Created"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 16:38:09,210",
+        "message": "POST /todo/create-todo"
+      },
+      "req": {
+        "url": "/todo/create-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Mobile Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/create-todo",
+        "query": {
+          "title": "string",
+          "description": "string"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 16:38:09,260",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "Todo Created"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:01:25,204",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "openapi": "3.0.2",
+          "info": {
+            "title": "FastAPI",
+            "version": "0.1.0"
+          },
+          "paths": {
+            "/auth/login": {
+              "post": {
+                "tags": [
+                  "auth"
+                ],
+                "summary": "Login For Access Token",
+                "operationId": "login_for_access_token_auth_login_post",
+                "requestBody": {
+                  "content": {
+                    "application/x-www-form-urlencoded": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Body_login_for_access_token_auth_login_post"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/Token"
+                        }
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "/auth/signup": {
+              "post": {
+                "tags": [
+                  "auth"
+                ],
+                "summary": "Read User Me",
+                "operationId": "read_user_me_auth_signup_post",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/profile_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "/todo/create-todo": {
+              "post": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Create Todo",
+                "operationId": "create_todo_todo_create_todo_post",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/todo_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/todo/get-todo": {
+              "get": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Get Todo",
+                "operationId": "get_todo_todo_get_todo_get",
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/todo/update-todo": {
+              "put": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Update Todo",
+                "operationId": "update_todo_todo_update_todo_put",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/update_todo_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/todo/delete-todo": {
+              "delete": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Delete Todo",
+                "operationId": "delete_todo_todo_delete_todo_delete",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/delete_todo_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/": {
+              "get": {
+                "summary": "Root",
+                "operationId": "root__get",
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "components": {
+            "schemas": {
+              "Body_login_for_access_token_auth_login_post": {
+                "title": "Body_login_for_access_token_auth_login_post",
+                "required": [
+                  "username",
+                  "password"
+                ],
+                "type": "object",
+                "properties": {
+                  "grant_type": {
+                    "title": "Grant Type",
+                    "pattern": "password",
+                    "type": "string"
+                  },
+                  "username": {
+                    "title": "Username",
+                    "type": "string"
+                  },
+                  "password": {
+                    "title": "Password",
+                    "type": "string"
+                  },
+                  "scope": {
+                    "title": "Scope",
+                    "type": "string",
+                    "default": ""
+                  },
+                  "client_id": {
+                    "title": "Client Id",
+                    "type": "string"
+                  },
+                  "client_secret": {
+                    "title": "Client Secret",
+                    "type": "string"
+                  }
+                }
+              },
+              "HTTPValidationError": {
+                "title": "HTTPValidationError",
+                "type": "object",
+                "properties": {
+                  "detail": {
+                    "title": "Detail",
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/ValidationError"
+                    }
+                  }
+                }
+              },
+              "Token": {
+                "title": "Token",
+                "required": [
+                  "access_token",
+                  "token_type"
+                ],
+                "type": "object",
+                "properties": {
+                  "access_token": {
+                    "title": "Access Token",
+                    "type": "string"
+                  },
+                  "token_type": {
+                    "title": "Token Type",
+                    "type": "string"
+                  }
+                },
+                "token_type": "bearer",
+                "access_token": "access_token"
+              },
+              "ValidationError": {
+                "title": "ValidationError",
+                "required": [
+                  "loc",
+                  "msg",
+                  "type"
+                ],
+                "type": "object",
+                "properties": {
+                  "loc": {
+                    "title": "Location",
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "integer"
+                        }
+                      ]
+                    }
+                  },
+                  "msg": {
+                    "title": "Message",
+                    "type": "string"
+                  },
+                  "type": {
+                    "title": "Error Type",
+                    "type": "string"
+                  }
+                }
+              },
+              "delete_todo_schema": {
+                "title": "delete_todo_schema",
+                "required": [
+                  "id"
+                ],
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "title": "Id",
+                    "type": "string"
+                  }
+                },
+                "id": "Todo Id"
+              },
+              "profile_schema": {
+                "title": "profile_schema",
+                "required": [
+                  "username",
+                  "password"
+                ],
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "title": "Username",
+                    "type": "string"
+                  },
+                  "password": {
+                    "title": "Password",
+                    "type": "string"
+                  }
+                },
+                "example": {
+                  "username": "yashkakade",
+                  "password": "yashkakade"
+                }
+              },
+              "todo_schema": {
+                "title": "Homework",
+                "required": [
+                  "title",
+                  "description"
+                ],
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "title": "Title",
+                    "type": "string"
+                  },
+                  "description": {
+                    "title": "Description",
+                    "type": "string"
+                  },
+                  "owner": {
+                    "title": "Owner",
+                    "type": "string"
+                  },
+                  "completed": {
+                    "title": "Completed",
+                    "type": "boolean"
+                  }
+                },
+                "description": "Computer Homework",
+                "completed": false,
+                "owner": "yash"
+              },
+              "update_todo_schema": {
+                "title": "Updated Homeword",
+                "required": [
+                  "id"
+                ],
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "title": "Id",
+                    "type": "string"
+                  },
+                  "title": {
+                    "title": "Title",
+                    "type": "string"
+                  },
+                  "description": {
+                    "title": "Description",
+                    "type": "string"
+                  }
+                },
+                "description": "Updated Description"
+              }
+            },
+            "securitySchemes": {
+              "OAuth2PasswordBearer": {
+                "type": "oauth2",
+                "flows": {
+                  "password": {
+                    "scopes": {},
+                    "tokenUrl": "auth/login"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:01:29,266",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Not authenticated"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:01:37,568",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "yashkakade",
+          "password": "yashkakade"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:01:39,483",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "yashkakade",
+          "password": "yashkakade"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:03:05,420",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "yashkakade",
+          "password": "yashkakade"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:03:05,927",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username already exists. Please login using that username"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:08:54,344",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "yashkakade",
+          "password": "yashkakade"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:09:01,562",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "yashkakade",
+          "password": "yashkakade"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:09:09,890",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "yashkakade",
+          "password": "yashkakade"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:11:41,468",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "yashkakade",
+          "password": "yashkakade"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:11:42,011",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username already exists. Please login using that username"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:12:25,550",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "yashkakade",
+          "password": "yashkakade"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:12:25,601",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username already exists. Please login using that username"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:12:54,118",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ5YXNoa2FrYWRlIiwiZXhwIjoxNjUxMzU0OTc0fQ.YzUQ93VIzlOY0IEZ-LY2iyVAJiR1Pm4YE1sdkk-O-SI",
+          "token_type": "bearer"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:13:02,405",
+        "message": "POST /todo/create-todo"
+      },
+      "req": {
+        "url": "/todo/create-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Mobile Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/create-todo",
+        "query": {
+          "title": "string",
+          "description": "string",
+          "owner": "string",
+          "completed": true
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:13:02,467",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "Todo Created"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:13:55,886",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:13:55,948",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:15:39,859",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:15:39,916",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:15:58,620",
+        "message": "PUT /todo/update-todo"
+      },
+      "req": {
+        "url": "/todo/update-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "PUT",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/update-todo",
+        "query": {
+          "id": "626da65ed27e441a1b1748bd",
+          "title": "string",
+          "description": "string"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:15:58,677",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "Todo Updated"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:16:01,126",
+        "message": "PUT /todo/update-todo"
+      },
+      "req": {
+        "url": "/todo/update-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "PUT",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/update-todo",
+        "query": {
+          "id": "626da65ed27e441a1b1748bd",
+          "title": "string",
+          "description": "string"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:16:01,170",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "Todo Updated"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:16:19,887",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:16:19,894",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:16:45,957",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:16:46,007",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:26:55,958",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 17:26:56,014",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:30:03,777",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Could not validate credentials"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:30:26,714",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ5YXNoa2FrYWRlIiwiZXhwIjoxNjUxMzcwNDI2fQ.joap1x8ED6J1fdYh7MRnZJD-5qKHrHf2TFRRjbtKTIs",
+          "token_type": "bearer"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:30:32,369",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:30:32,423",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:33:36,156",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:33:36,207",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:34:23,680",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:34:23,687",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:34:39,896",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:34:39,946",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:36:40,494",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:36:40,549",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:36:50,590",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Mobile Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:36:50,596",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:40:10,809",
+        "message": "DELETE /todo/delete-todo"
+      },
+      "req": {
+        "url": "/todo/delete-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Mobile Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "DELETE",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/delete-todo",
+        "query": {
+          "id": "string"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:40:10,814",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Invalid todo id"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:40:23,977",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Not authenticated"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:51:20,387",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "openapi": "3.0.2",
+          "info": {
+            "title": "FastAPI",
+            "version": "0.1.0"
+          },
+          "paths": {
+            "/auth/login": {
+              "post": {
+                "tags": [
+                  "auth"
+                ],
+                "summary": "Login For Access Token",
+                "operationId": "login_for_access_token_auth_login_post",
+                "requestBody": {
+                  "content": {
+                    "application/x-www-form-urlencoded": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Body_login_for_access_token_auth_login_post"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/Token"
+                        }
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "/auth/signup": {
+              "post": {
+                "tags": [
+                  "auth"
+                ],
+                "summary": "Read User Me",
+                "operationId": "read_user_me_auth_signup_post",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/profile_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "/todo/create-todo": {
+              "post": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Create Todo",
+                "operationId": "create_todo_todo_create_todo_post",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/todo_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/todo/get-todo": {
+              "get": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Get Todo",
+                "operationId": "get_todo_todo_get_todo_get",
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/todo/update-todo": {
+              "put": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Update Todo",
+                "operationId": "update_todo_todo_update_todo_put",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/update_todo_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/todo/delete-todo": {
+              "delete": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Delete Todo",
+                "operationId": "delete_todo_todo_delete_todo_delete",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/delete_todo_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/": {
+              "get": {
+                "summary": "Root",
+                "operationId": "root__get",
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "components": {
+            "schemas": {
+              "Body_login_for_access_token_auth_login_post": {
+                "title": "Body_login_for_access_token_auth_login_post",
+                "required": [
+                  "username",
+                  "password"
+                ],
+                "type": "object",
+                "properties": {
+                  "grant_type": {
+                    "title": "Grant Type",
+                    "pattern": "password",
+                    "type": "string"
+                  },
+                  "username": {
+                    "title": "Username",
+                    "type": "string"
+                  },
+                  "password": {
+                    "title": "Password",
+                    "type": "string"
+                  },
+                  "scope": {
+                    "title": "Scope",
+                    "type": "string",
+                    "default": ""
+                  },
+                  "client_id": {
+                    "title": "Client Id",
+                    "type": "string"
+                  },
+                  "client_secret": {
+                    "title": "Client Secret",
+                    "type": "string"
+                  }
+                }
+              },
+              "HTTPValidationError": {
+                "title": "HTTPValidationError",
+                "type": "object",
+                "properties": {
+                  "detail": {
+                    "title": "Detail",
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/ValidationError"
+                    }
+                  }
+                }
+              },
+              "Token": {
+                "title": "Token",
+                "required": [
+                  "access_token",
+                  "token_type"
+                ],
+                "type": "object",
+                "properties": {
+                  "access_token": {
+                    "title": "Access Token",
+                    "type": "string"
+                  },
+                  "token_type": {
+                    "title": "Token Type",
+                    "type": "string"
+                  }
+                },
+                "access_token": "access_token",
+                "token_type": "bearer"
+              },
+              "ValidationError": {
+                "title": "ValidationError",
+                "required": [
+                  "loc",
+                  "msg",
+                  "type"
+                ],
+                "type": "object",
+                "properties": {
+                  "loc": {
+                    "title": "Location",
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "integer"
+                        }
+                      ]
+                    }
+                  },
+                  "msg": {
+                    "title": "Message",
+                    "type": "string"
+                  },
+                  "type": {
+                    "title": "Error Type",
+                    "type": "string"
+                  }
+                }
+              },
+              "delete_todo_schema": {
+                "title": "delete_todo_schema",
+                "required": [
+                  "id"
+                ],
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "title": "Id",
+                    "type": "string"
+                  }
+                },
+                "id": "Todo Id"
+              },
+              "profile_schema": {
+                "title": "profile_schema",
+                "required": [
+                  "username",
+                  "password"
+                ],
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "title": "Username",
+                    "type": "string"
+                  },
+                  "password": {
+                    "title": "Password",
+                    "type": "string"
+                  }
+                },
+                "example": {
+                  "username": "yashkakade",
+                  "password": "yashkakade"
+                }
+              },
+              "todo_schema": {
+                "title": "Homework",
+                "required": [
+                  "title",
+                  "description"
+                ],
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "title": "Title",
+                    "type": "string"
+                  },
+                  "description": {
+                    "title": "Description",
+                    "type": "string"
+                  },
+                  "owner": {
+                    "title": "Owner",
+                    "type": "string"
+                  },
+                  "completed": {
+                    "title": "Completed",
+                    "type": "boolean"
+                  }
+                },
+                "description": "Computer Homework",
+                "owner": "yash",
+                "completed": false
+              },
+              "update_todo_schema": {
+                "title": "Updated Homeword",
+                "required": [
+                  "id"
+                ],
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "title": "Id",
+                    "type": "string"
+                  },
+                  "title": {
+                    "title": "Title",
+                    "type": "string"
+                  },
+                  "description": {
+                    "title": "Description",
+                    "type": "string"
+                  }
+                },
+                "description": "Updated Description"
+              }
+            },
+            "securitySchemes": {
+              "OAuth2PasswordBearer": {
+                "type": "oauth2",
+                "flows": {
+                  "password": {
+                    "scopes": {},
+                    "tokenUrl": "auth/login"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:51:26,611",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Not authenticated"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:51:39,662",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ5YXNoa2FrYWRlIiwiZXhwIjoxNjUxMzcxNjk5fQ.3ozuigqhGHvMoPPZEaGYoHCScHhrXhOOJO_eiYeMcc4",
+          "token_type": "bearer"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:51:48,997",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 21:51:49,048",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:00:16,837",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:00:16,884",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:14:33,744",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:14:33,791",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "hey 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:15:05,663",
+        "message": "PUT /todo/update-todo"
+      },
+      "req": {
+        "url": "/todo/update-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "PUT",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/update-todo",
+        "query": {
+          "id": "62687d3535c15e6d7c3ad6bd",
+          "title": "First todo",
+          "description": "yayy"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:15:31,783",
+        "message": "PUT /todo/update-todo"
+      },
+      "req": {
+        "url": "/todo/update-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "PUT",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/update-todo",
+        "query": {
+          "id": "62687d3535c15e6d7c3ad6bd",
+          "title": "First todo",
+          "description": "yayy"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:15:32,297",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "Todo Updated"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:15:40,729",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:15:40,776",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "First todo",
+            "description": "yayy",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:15:50,621",
+        "message": "DELETE /todo/delete-todo"
+      },
+      "req": {
+        "url": "/todo/delete-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "DELETE",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/delete-todo",
+        "query": {
+          "id": "62687d3535c15e6d7c3ad6bd"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:15:50,678",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "Todo Deleted"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:15:51,708",
+        "message": "DELETE /todo/delete-todo"
+      },
+      "req": {
+        "url": "/todo/delete-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "DELETE",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/delete-todo",
+        "query": {
+          "id": "62687d3535c15e6d7c3ad6bd"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:15:51,760",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "Todo Deleted"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:15:55,971",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:15:55,974",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687d3535c15e6d7c3ad6bd",
+            "title": "First todo",
+            "description": "yayy",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:16:41,340",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:16:41,387",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:47:55,350",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Could not validate credentials"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:48:10,109",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhaXNodSIsImV4cCI6MTY1MTM3NTA5MH0.rs_Y_oQCLhi12ODUp5ag4IytjGis-B9b4022SVYq0Do",
+          "token_type": "bearer"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:48:12,487",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:48:12,538",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "You don't have any todo tasks"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:48:18,221",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:48:18,274",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "You don't have any todo tasks"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:48:40,062",
+        "message": "POST /todo/create-todo"
+      },
+      "req": {
+        "url": "/todo/create-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/create-todo",
+        "query": {
+          "title": "first taks",
+          "description": "hey"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:48:40,120",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "Todo Created"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:48:45,440",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:48:45,492",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "626df508beb9815413f12900",
+            "title": "first taks",
+            "description": "hey",
+            "owner": "aishu",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:50:59,159",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "openapi": "3.0.2",
+          "info": {
+            "title": "FastAPI",
+            "version": "0.1.0"
+          },
+          "paths": {
+            "/auth/login": {
+              "post": {
+                "tags": [
+                  "auth"
+                ],
+                "summary": "Login For Access Token",
+                "operationId": "login_for_access_token_auth_login_post",
+                "requestBody": {
+                  "content": {
+                    "application/x-www-form-urlencoded": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Body_login_for_access_token_auth_login_post"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/Token"
+                        }
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "/auth/signup": {
+              "post": {
+                "tags": [
+                  "auth"
+                ],
+                "summary": "Read User Me",
+                "operationId": "read_user_me_auth_signup_post",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/profile_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "/todo/create-todo": {
+              "post": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Create Todo",
+                "operationId": "create_todo_todo_create_todo_post",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/todo_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/todo/get-todo": {
+              "get": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Get Todo",
+                "operationId": "get_todo_todo_get_todo_get",
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/todo/update-todo": {
+              "put": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Update Todo",
+                "operationId": "update_todo_todo_update_todo_put",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/update_todo_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/todo/delete-todo": {
+              "delete": {
+                "tags": [
+                  "todo"
+                ],
+                "summary": "Delete Todo",
+                "operationId": "delete_todo_todo_delete_todo_delete",
+                "requestBody": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/delete_todo_schema"
+                      }
+                    }
+                  },
+                  "required": true
+                },
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  },
+                  "404": {
+                    "description": "Not found"
+                  },
+                  "422": {
+                    "description": "Validation Error",
+                    "content": {
+                      "application/json": {
+                        "schema": {
+                          "$ref": "#/components/schemas/HTTPValidationError"
+                        }
+                      }
+                    }
+                  }
+                },
+                "security": [
+                  {
+                    "OAuth2PasswordBearer": []
+                  }
+                ]
+              }
+            },
+            "/": {
+              "get": {
+                "summary": "Root",
+                "operationId": "root__get",
+                "responses": {
+                  "200": {
+                    "description": "Successful Response",
+                    "content": {
+                      "application/json": {
+                        "schema": {}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "components": {
+            "schemas": {
+              "Body_login_for_access_token_auth_login_post": {
+                "title": "Body_login_for_access_token_auth_login_post",
+                "required": [
+                  "username",
+                  "password"
+                ],
+                "type": "object",
+                "properties": {
+                  "grant_type": {
+                    "title": "Grant Type",
+                    "pattern": "password",
+                    "type": "string"
+                  },
+                  "username": {
+                    "title": "Username",
+                    "type": "string"
+                  },
+                  "password": {
+                    "title": "Password",
+                    "type": "string"
+                  },
+                  "scope": {
+                    "title": "Scope",
+                    "type": "string",
+                    "default": ""
+                  },
+                  "client_id": {
+                    "title": "Client Id",
+                    "type": "string"
+                  },
+                  "client_secret": {
+                    "title": "Client Secret",
+                    "type": "string"
+                  }
+                }
+              },
+              "HTTPValidationError": {
+                "title": "HTTPValidationError",
+                "type": "object",
+                "properties": {
+                  "detail": {
+                    "title": "Detail",
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/ValidationError"
+                    }
+                  }
+                }
+              },
+              "Token": {
+                "title": "Token",
+                "required": [
+                  "access_token",
+                  "token_type"
+                ],
+                "type": "object",
+                "properties": {
+                  "access_token": {
+                    "title": "Access Token",
+                    "type": "string"
+                  },
+                  "token_type": {
+                    "title": "Token Type",
+                    "type": "string"
+                  }
+                },
+                "token_type": "bearer",
+                "access_token": "access_token"
+              },
+              "ValidationError": {
+                "title": "ValidationError",
+                "required": [
+                  "loc",
+                  "msg",
+                  "type"
+                ],
+                "type": "object",
+                "properties": {
+                  "loc": {
+                    "title": "Location",
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "integer"
+                        }
+                      ]
+                    }
+                  },
+                  "msg": {
+                    "title": "Message",
+                    "type": "string"
+                  },
+                  "type": {
+                    "title": "Error Type",
+                    "type": "string"
+                  }
+                }
+              },
+              "delete_todo_schema": {
+                "title": "delete_todo_schema",
+                "required": [
+                  "id"
+                ],
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "title": "Id",
+                    "type": "string"
+                  }
+                },
+                "id": "Todo Id"
+              },
+              "profile_schema": {
+                "title": "profile_schema",
+                "required": [
+                  "username",
+                  "password"
+                ],
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "title": "Username",
+                    "type": "string"
+                  },
+                  "password": {
+                    "title": "Password",
+                    "type": "string"
+                  }
+                },
+                "example": {
+                  "username": "yashkakade",
+                  "password": "yashkakade"
+                }
+              },
+              "todo_schema": {
+                "title": "Homework",
+                "required": [
+                  "title",
+                  "description"
+                ],
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "title": "Title",
+                    "type": "string"
+                  },
+                  "description": {
+                    "title": "Description",
+                    "type": "string"
+                  },
+                  "owner": {
+                    "title": "Owner",
+                    "type": "string"
+                  },
+                  "completed": {
+                    "title": "Completed",
+                    "type": "boolean"
+                  }
+                },
+                "description": "Computer Homework",
+                "owner": "yash",
+                "completed": false
+              },
+              "update_todo_schema": {
+                "title": "Updated Homeword",
+                "required": [
+                  "id"
+                ],
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "title": "Id",
+                    "type": "string"
+                  },
+                  "title": {
+                    "title": "Title",
+                    "type": "string"
+                  },
+                  "description": {
+                    "title": "Description",
+                    "type": "string"
+                  },
+                  "completed": {
+                    "title": "Completed",
+                    "type": "boolean"
+                  }
+                },
+                "description": "Updated Description",
+                "completed": "false"
+              }
+            },
+            "securitySchemes": {
+              "OAuth2PasswordBearer": {
+                "type": "oauth2",
+                "flows": {
+                  "password": {
+                    "scopes": {},
+                    "tokenUrl": "auth/login"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:51:10,101",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Not authenticated"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:51:22,530",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ5YXNoa2FrYWRlIiwiZXhwIjoxNjUxMzc1MjgyfQ.glrWVcOcSN4cdhU5g9zKjWvKrRCMdt9LhY0ngzE91pM",
+          "token_type": "bearer"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:51:23,783",
+        "message": "PUT /todo/update-todo"
+      },
+      "req": {
+        "url": "/todo/update-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "PUT",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/update-todo",
+        "query": {
+          "id": "626df508beb9815413f12900",
+          "title": "string",
+          "description": "string",
+          "completed": true
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:51:23,882",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "Todo Updated"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:51:37,926",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhaXNodSIsImV4cCI6MTY1MTM3NTI5N30.YB-lgn_UIhrKq-ndHB7-9lbPgVP6N7A2JmS_KfQNcIQ",
+          "token_type": "bearer"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:51:40,690",
+        "message": "PUT /todo/update-todo"
+      },
+      "req": {
+        "url": "/todo/update-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "PUT",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/update-todo",
+        "query": {
+          "id": "626df508beb9815413f12900",
+          "title": "string",
+          "description": "string",
+          "completed": true
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:51:40,772",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "Todo Updated"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:51:48,437",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:51:48,488",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "626df508beb9815413f12900",
+            "title": "string",
+            "description": "string",
+            "owner": "aishu",
+            "completed": true
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:54:45,143",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "",
+          "password": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:54:45,148",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 500,
+        "body": {
+          "detail": "Internal Server Error"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:54:47,142",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "",
+          "password": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:54:47,144",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 500,
+        "body": {
+          "detail": "Internal Server Error"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:55:47,310",
+        "message": "POST /auth/signup"
+      },
+      "req": {
+        "url": "/auth/signup",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/auth/signup",
+        "query": {
+          "username": "",
+          "password": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:55:47,314",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Username cannot be empty"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:56:35,563",
+        "message": "DELETE /todo/delete-todo"
+      },
+      "req": {
+        "url": "/todo/delete-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "DELETE",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/delete-todo",
+        "query": {
+          "id": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:56:35,567",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 500,
+        "body": {
+          "detail": "Internal Server Error"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:56:52,593",
+        "message": "DELETE /todo/delete-todo"
+      },
+      "req": {
+        "url": "/todo/delete-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "DELETE",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/delete-todo",
+        "query": {
+          "id": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:56:52,595",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Id cannot be empty"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:56:53,359",
+        "message": "DELETE /todo/delete-todo"
+      },
+      "req": {
+        "url": "/todo/delete-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "DELETE",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/delete-todo",
+        "query": {
+          "id": ""
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 22:56:53,360",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 400,
+        "body": {
+          "detail": "Id cannot be empty"
+        }
+      }
+    }
+  }
+]

@@ -4,11 +4,25 @@ from todo.main_todo import *
 from helper_functions.response_body_getter.response_body_getter import response_body_getter
 from starlette.background import BackgroundTask
 from log.json_response_dependency.json_response_dependency import json_response_dependency
+from db.db_client import connect_db, close_db
+from redis.redis_client import make_redis_client, close_redis_client
 
-#todoListFastapi = FastAPI(dependencies=[Depends(json_request_dependency)])
 todoListFastapi = FastAPI()
 todoListFastapi.include_router(auth)
 todoListFastapi.include_router(todo_route)
+
+#todoListFastapi.add_event_handler("startup", connect_db, make_redis_client)
+#todoListFastapi.add_event_handler("shutdown", close_db)
+
+@todoListFastapi.on_event("startup")
+async def startup_event():
+    await connect_db()
+    await make_redis_client()
+
+@todoListFastapi.on_event("shutdown")
+async def startup_event():
+    await close_db()
+    await close_redis_client()
 
 @todoListFastapi.middleware("http")
 async def log_request(request: Request, call_next):

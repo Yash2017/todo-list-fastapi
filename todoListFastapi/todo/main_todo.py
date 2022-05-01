@@ -31,15 +31,19 @@ async def create_todo(input_todo:todo_schema, current_user = Depends(get_current
 
 @todo_route.get("/get-todo")
 async def get_todo(current_user = Depends(get_current_user)):
-    redis_todo_data = await get_redis_value(current_user)
-    if redis_todo_data:
-        return redis_todo_data
-    todos = await get_todo_from_db(current_user)
-    await set_redis_value(current_user, todos)
-    if todos:
-        return todos
-    else:
-        return {"Message": "You don't have any todo tasks"}
+    try:
+        redis_todo_data = await get_redis_value(current_user)
+        if redis_todo_data:
+            return redis_todo_data
+        todos = await get_todo_from_db(current_user)
+        await set_redis_value(current_user, todos)
+        if todos:
+            return todos
+        else:
+            return {"Message": "You don't have any todo tasks"}
+    except:
+        raise HTTPException(status_code=500, detail="Internal Server Error")
+
 
 @todo_route.put("/update-todo")
 async def update_todo(update_todo:update_todo_schema, current_user = Depends(get_current_user)):

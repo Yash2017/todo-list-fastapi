@@ -4,19 +4,29 @@ from jose import JWTError, jwt
 from passlib.context import CryptContext
 from db.db import get_user_from_db
 from schema.token_schema.token_schema import TokenData
+from redis.redis_helper import get_user_from_redis, set_user_value
 
 SECRET_KEY = "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"
 ALGORITHM = "HS256"
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/token")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/login")
 
 async def get_user(username: str):
-    db = await get_user_from_db()
-    for user in db:
-        if user["username"] == username:
-            return user
-
+    try:
+        user_from_redis = await get_user_from_redis()
+        if user_from_redis:
+            for user in user_from_redis:
+                if user["username"] == username:
+                    return user
+        else:
+            db = await get_user_from_db()
+            await set_user_value(db)
+            for user in db:
+                if user["username"] == username:
+                    return user
+    except:
+        raise HTTPException(status_code=500, detail="Internal Server Error")
 
 async def get_current_user(token: str = Depends(oauth2_scheme)):
     credentials_exception = HTTPException(

@@ -14,17 +14,21 @@ auth = APIRouter(
     responses={404: {"description": "Not found"}},
 )
 
-@auth.post("/token", response_model=Token)
+@auth.post("/login", response_model=Token)
 async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()):
-    user = await authenticate_user(form_data.username, form_data.password)
-    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
-    access_token = create_access_token(
-        data={"sub": user["username"]}, expires_delta=access_token_expires
-    )
-    return {"access_token": access_token, "token_type": "bearer"}
+    try:
+        user = await authenticate_user(form_data.username, form_data.password)
+        access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+        access_token = create_access_token(
+            data={"sub": user["username"]}, expires_delta=access_token_expires
+        )
+        return {"access_token": access_token, "token_type": "bearer"}
+    except:
+        raise HTTPException(status_code=500, detail="Internal Server Error")
+
 
 @auth.post("/signup")
-async def read_user_me(userInfo:profile_schema, sxy=Depends(json_request_dependency)):
+async def read_user_me(userInfo:profile_schema, json_request=Depends(json_request_dependency)):
     empty_checker(userInfo.username, "Username")
     empty_checker(userInfo.password, "Password")
     users = await get_user(userInfo.username)
@@ -36,5 +40,6 @@ async def read_user_me(userInfo:profile_schema, sxy=Depends(json_request_depende
     if not result:
         raise HTTPException(status_code=500, detail="Internal Server Error")
     return {"Message": "User Account Created"}
+
     
 
