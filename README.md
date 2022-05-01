@@ -1,7 +1,6 @@
 # Fastapi based Todo List application
 This application uses Redis to cache requests, JSON logging to log all the incoming requests and responses and
-asyncio based motor driver for storing the data in MongoDB. It also uses Docker to run the entire application and pytest for tesing. Running this application
-is fairly simple. Below are the steps to do so. Make sure that docker and python is installed before proceeding.
+asyncio based motor driver for storing the data in MongoDB. OAuth2 is used with JWT bearer tokens to ensure security. I have also used Motor driver with AsyncIO to talk to the db. Code is well documented and maintained. It is easy to understand as I have added comments everywhere. I have also made a private bridge to use with redis and todo application in docker to ensure that everything is secure. It also uses Docker to run the entire application and pytest for tesing. Running this application is fairly simple. Below are the steps to do so. Make sure that docker and python is installed before proceeding.
 
 1. `git clone https://github.com/Yash2017/todo-list-fastapi.git` Clone the repository
 2. `cd todo-list-fastapi`
