@@ -1,3 +1,5 @@
+import os
+from dotenv import load_dotenv
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.security import OAuth2PasswordRequestForm
 from fastapi.encoders import jsonable_encoder
@@ -7,6 +9,8 @@ from .dependencies import *
 from db.db import create_user
 from schema.profile_schema.profile_schema import profile_schema
 from schema.token_schema.token_schema import Token
+load_dotenv()
+ACCESS_TOKEN_EXPIRE_MINUTES = os.environ.get("ACCESS_TOKEN_EXPIRE_MINUTES")
 
 auth = APIRouter(
     prefix="/auth",
@@ -16,15 +20,15 @@ auth = APIRouter(
 
 @auth.post("/login", response_model=Token)
 async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()):
-    try:
-        user = await authenticate_user(form_data.username, form_data.password)
-        access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
-        access_token = create_access_token(
-            data={"sub": user["username"]}, expires_delta=access_token_expires
-        )
-        return {"access_token": access_token, "token_type": "bearer"}
-    except:
-        raise HTTPException(status_code=500, detail="Internal Server Error")
+    #try:
+    user = await authenticate_user(form_data.username, form_data.password)
+    access_token_expires = timedelta(minutes=int(ACCESS_TOKEN_EXPIRE_MINUTES))
+    access_token = create_access_token(
+        data={"sub": user["username"]}, expires_delta=access_token_expires
+    )
+    return {"access_token": access_token, "token_type": "bearer"}
+    #except:
+        #raise HTTPException(status_code=500, detail="Internal Server Error")
 
 
 @auth.post("/signup")

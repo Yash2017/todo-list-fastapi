@@ -1,0 +1,30 @@
+# 
+FROM python:3.9
+
+# 
+WORKDIR /todoListFastapi
+
+# 
+COPY ./todoListFastapi/requirements.txt /todoListFastapi/requirements.txt
+
+# 
+RUN pip install --no-cache-dir --upgrade -r /todoListFastapi/requirements.txt
+
+EXPOSE 8000
+# 
+COPY ./todoListFastapi /todoListFastapi
+ENV SECRET_KEY=09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7
+ENV ALGORITHM=HS256
+ENV REDIS_URL_WITH_PORT=redis://redis:6379
+ENV MONGODB_CONNECTION_URL=mongodb+srv://yashkakade:yashkakade@bug-tracker.np7pj.mongodb.net/todo-list-fastapi?retryWrites=true&w=majority
+ENV MONGODB_STRING=todo-list-fastapi
+ENV USER_COLLECTION_STRING=profile
+ENV TODO_COLLECTION_STRING=todo_information
+ENV ACCESS_TOKEN_EXPIRE_MINUTES=30
+ENV TIME_TO_LIVE_SECOND=60
+
+
+
+
+# 
+CMD ["uvicorn", "main:todoListFastapi", "--host", "0.0.0.0", "--port", "8000", "--reload"]

@@ -1,8 +1,5 @@
-import json
 from fastapi import HTTPException
-import motor.motor_tornado
 from bson import ObjectId
-import motor.motor_asyncio
 from helper_functions.json_encoder.json_encoder import JSONEncoder
 from redis.redis_helper import find_todo_in_redis
 from .db_client import get_db_user_collection_client, get_db_todo_collection_client
