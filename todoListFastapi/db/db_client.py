@@ -1,23 +1,28 @@
+import os
+from dotenv import load_dotenv
 from motor.motor_asyncio import AsyncIOMotorClient
 from http.client import HTTPException
-conn_str = "mongodb+srv://yashkakade:yashkakade@bug-tracker.np7pj.mongodb.net/todo-list-fastapi?retryWrites=true&w=majority"
-db_str = "todo-list-fastapi"
+
+load_dotenv()
+
+MONGODB_CONNECTION_URL = os.environ.get("MONGODB_CONNECTION_URL")
+MONGODB_STRING = os.environ.get("MONGODB_STRING")
 db_client: AsyncIOMotorClient = None
-user_collection_str = "profile"
-todo_collection_str = "todo_information"
+USER_COLLECTION_STRING = os.environ.get("USER_COLLECTION_STRING")
+TODO_COLLECTION_STRING = os.environ.get("TODO_COLLECTION_STRING")
 
 async def get_db_user_collection_client() -> AsyncIOMotorClient:
     global db_client
-    return db_client[db_str][user_collection_str]
+    return db_client[MONGODB_STRING][USER_COLLECTION_STRING]
 
 async def get_db_todo_collection_client() -> AsyncIOMotorClient:
     global db_client
-    return db_client[db_str][todo_collection_str]
+    return db_client[MONGODB_STRING][TODO_COLLECTION_STRING]
 
 async def connect_db():
     global db_client
     try:
-        db_client = AsyncIOMotorClient(conn_str, serverSelectionTimeoutMS=5000)
+        db_client = AsyncIOMotorClient(MONGODB_CONNECTION_URL, serverSelectionTimeoutMS=5000)
     except:
         raise HTTPException(status_code=500, detail="Could Not Connect To MongoDB Server")
 

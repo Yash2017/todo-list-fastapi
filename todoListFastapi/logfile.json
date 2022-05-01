@@ -8836,3 +8836,463 @@
     }
   }
 ]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 23:27:11,966",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 401,
+        "body": {
+          "detail": "Could not validate credentials"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 23:27:33,731",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ5YXNoa2FrYWRlIiwiZXhwIjoxNjUxMzc3NDUzfQ.0SWFpqw2AyWZA9wIa9D3jKKpAsv9d5gJB9Wn2EsUAXo",
+          "token_type": "bearer"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 23:27:37,747",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 23:27:37,794",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 23:47:47,717",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 23:47:47,768",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 23:48:03,163",
+        "message": "POST /todo/create-todo"
+      },
+      "req": {
+        "url": "/todo/create-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/create-todo",
+        "query": {
+          "title": "string",
+          "description": "string"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 23:48:03,221",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "Todo Created"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 23:48:08,688",
+        "message": "POST /todo/create-todo"
+      },
+      "req": {
+        "url": "/todo/create-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "POST",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/create-todo",
+        "query": {
+          "title": "string",
+          "description": "string"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 23:48:08,738",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": {
+          "Message": "Todo Created"
+        }
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 23:48:12,291",
+        "message": "GET /todo/get-todo"
+      },
+      "req": {
+        "url": "/todo/get-todo",
+        "headers": {
+          "host": "localhost:8000",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+          "accept": "application/json"
+        },
+        "method": "GET",
+        "httpVersion": "1.1",
+        "originalUrl": "/todo/get-todo",
+        "query": "No query as this is a GET request"
+      }
+    }
+  }
+]
+[
+  {
+    "todoListFastapi": {
+      "log": {
+        "level": "INFO",
+        "type": "access",
+        "timestamp": "2022-04-30 23:48:12,294",
+        "message": "This is the response"
+      },
+      "res": {
+        "statusCode": 200,
+        "body": [
+          {
+            "_id": "62687da19f8dffab55cf51f5",
+            "title": "test",
+            "description": "test1",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62687f7cbe1594cde991b80f",
+            "title": "asjkdjfsak",
+            "description": "ajfkdsfkas",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "62694a26675d8cd6e4426a4a",
+            "title": "as",
+            "description": "testaskaljf",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626ac700e05074b85bd5ec26",
+            "title": "hey test 1000",
+            "description": "hey whatsapp",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abcf8c5ec42b7bca7d0",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626b3abef8c5ec42b7bca7d1",
+            "title": "Yash",
+            "description": "Kakade",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626cf643676d5c75b18f2fc9",
+            "title": "hey",
+            "description": "hey",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9dcba8db6e97da81055a",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626d9e31a8db6e97da81055b",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          },
+          {
+            "_id": "626da65ed27e441a1b1748bd",
+            "title": "string",
+            "description": "string",
+            "owner": "yashkakade",
+            "completed": false
+          }
+        ]
+      }
+    }
+  }
+]

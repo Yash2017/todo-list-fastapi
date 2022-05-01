@@ -1,6 +1,10 @@
+import os
+from dotenv import load_dotenv
 import aioredis
 from fastapi import HTTPException
 
+load_dotenv()
+REDIS_URL_WITH_PORT = os.environ.get("REDIS_URL_WITH_PORT")
 redis = None
 
 async def get_redis_client():
@@ -14,6 +18,6 @@ async def close_redis_client():
 async def make_redis_client():
     try:
         global redis
-        redis = await aioredis.from_url("redis://localhost:6379", decode_responses=True, max_connections=10)
+        redis = await aioredis.from_url(REDIS_URL_WITH_PORT, decode_responses=True, max_connections=10)
     except:
         raise HTTPException(status_code=500, detail="Could Not Connect To Redis Server")
