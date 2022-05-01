@@ -1,6 +1,8 @@
 from typing import Optional
 from pydantic import BaseModel
-
+'''
+Token schema
+'''
 class TokenData(BaseModel):
     username: Optional[str] = None
     class Config:

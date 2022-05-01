@@ -7,23 +7,26 @@ from log.json_response_dependency.json_response_dependency import json_response_
 from db.db_client import connect_db, close_db
 from redis.redis_client import make_redis_client, close_redis_client
 
+#Here we include the auth and the todo_route
 todoListFastapi = FastAPI()
 todoListFastapi.include_router(auth)
 todoListFastapi.include_router(todo_route)
 
-#todoListFastapi.add_event_handler("startup", connect_db, make_redis_client)
-#todoListFastapi.add_event_handler("shutdown", close_db)
-
+#We initialize both redis and the db on startup
 @todoListFastapi.on_event("startup")
 async def startup_event():
     await connect_db()
     await make_redis_client()
 
+#We shutdown redis and the db on shutdown
 @todoListFastapi.on_event("shutdown")
 async def startup_event():
     await close_db()
     await close_redis_client()
 
+'''We add a middleware that is used to log the response. This is essential as I wanted the resposnse body 
+which is hard to get in a dependency
+'''
 @todoListFastapi.middleware("http")
 async def log_request(request: Request, call_next):
     response = await call_next(request)

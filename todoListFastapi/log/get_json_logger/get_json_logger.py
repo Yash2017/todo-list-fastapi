@@ -1,5 +1,7 @@
 import logging, sys
-
+'''
+Returns back a logger that is used to log data
+'''
 def get_file_handler(formatter, log_filename):
     file_handler = logging.FileHandler(log_filename)
     file_handler.setLevel(logging.DEBUG)

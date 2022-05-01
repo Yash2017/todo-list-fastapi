@@ -1,3 +1,6 @@
+'''
+Function to return the log in the right format
+'''
 import json
 def response_log_maker(response, response_body):
         return {

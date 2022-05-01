@@ -7,6 +7,7 @@ from fastapi import HTTPException
 load_dotenv()
 TIME_TO_LIVE_SECOND = int(os.environ.get("TIME_TO_LIVE_SECOND"))
 
+#This function gets the todo information for the current user
 async def get_redis_value(current_user):
     try:
         redis = await get_redis_client()
@@ -19,7 +20,7 @@ async def get_redis_value(current_user):
     except:
         raise HTTPException(status_code=500, detail="Redis Server Error. Could not connect to the server")
 
-
+#This function sets the todo information for the current user
 async def set_redis_value(current_user, todo_data):
     redis = await get_redis_client()
     try:
@@ -28,6 +29,7 @@ async def set_redis_value(current_user, todo_data):
     except:
         raise HTTPException(status_code=500, detail="Could Not Save Data To Redis Server")
 
+#This function finds a todo in the redis using the current user key value
 async def find_todo_in_redis(current_user, todo_id):
     try:
         redis_todo_value = await get_redis_value(current_user)
@@ -41,7 +43,7 @@ async def find_todo_in_redis(current_user, todo_id):
     except:
         raise HTTPException(status_code=500, detail="Redis Server Error. Could not connect to the server")
 
-
+#This function is simply used to check if a user is present in the user_list key
 async def get_user_from_redis():
     try:
         redis = await get_redis_client()
@@ -54,7 +56,7 @@ async def get_user_from_redis():
     except:
         raise HTTPException(status_code=500, detail="Redis Server Error. Could not connect to the server")
 
-
+#Used to set the user_list key which contains a list of all the users
 async def set_user_value(user_value):
     try:
         redis = await get_redis_client()

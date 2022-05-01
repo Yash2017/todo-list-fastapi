@@ -1,5 +1,7 @@
 import json, logging
-
+'''
+Json formattor that adds the correct format to the logs and returns the log to the log file
+'''
 def get_response_log(record):
     json_obj = [{
                 'todoListFastapi': {

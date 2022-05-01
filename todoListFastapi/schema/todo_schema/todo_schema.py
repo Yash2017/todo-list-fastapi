@@ -1,6 +1,9 @@
 from typing import Optional
 from pydantic import BaseModel
 
+'''
+Todo schema
+'''
 class todo_schema(BaseModel):
     title: str
     description: str

@@ -1,30 +1,47 @@
-# 
+#Base Image 
 FROM python:3.9
 
-# 
+#Changing the workdir
 WORKDIR /todoListFastapi
 
-# 
+#Copying the files from our local directory. We copy the requirements.txt
 COPY ./todoListFastapi/requirements.txt /todoListFastapi/requirements.txt
 
-# 
+#Running pip install to install the requirements
 RUN pip install --no-cache-dir --upgrade -r /todoListFastapi/requirements.txt
 
+#Exposing port 8000
 EXPOSE 8000
-# 
+
+#Copying over the rest of the files
 COPY ./todoListFastapi /todoListFastapi
+
+#Environment variable for the secret key for hashing the password
 ENV SECRET_KEY=09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7
+
+#This variable has the type of the algorithm
 ENV ALGORITHM=HS256
+
+#This is the url of the redis container with the port number
 ENV REDIS_URL_WITH_PORT=redis://redis:6379
-ENV MONGODB_CONNECTION_URL=mongodb+srv://yashkakade:yashkakade@bug-tracker.np7pj.mongodb.net/todo-list-fastapi?retryWrites=true&w=majority
+
+#Make sure that this is entered as this would be your connection url
+ENV MONGODB_CONNECTION_URL=ENTER_YOUR_CONNECTION_URL
+
+#This is the name of the database. Please create a database called todo-list-fastapi
 ENV MONGODB_STRING=todo-list-fastapi
+
+#Name of the collection for profiles
 ENV USER_COLLECTION_STRING=profile
+
+#Name of the collection for todo information
 ENV TODO_COLLECTION_STRING=todo_information
+
+#JWT Access token expire time
 ENV ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+#Time to live for the redis cache
 ENV TIME_TO_LIVE_SECOND=60
 
-
-
-
-# 
+#Command to run the uvicorn server and start the application
 CMD ["uvicorn", "main:todoListFastapi", "--host", "0.0.0.0", "--port", "8000", "--reload"]

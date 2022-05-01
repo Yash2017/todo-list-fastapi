@@ -16,6 +16,10 @@ ALGORITHM = os.environ.get("ALGORITHM")
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/login")
 
+'''
+This is used to check if the user is present in the redis cache. If thats untrue then 
+the db is queried and the response is stored in the cache
+'''
 async def get_user(username: str):
     try:
         user_from_redis = await get_user_from_redis()
@@ -32,6 +36,9 @@ async def get_user(username: str):
     except:
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
+'''
+This gets the current user using the bearer token
+'''
 async def get_current_user(token: str = Depends(oauth2_scheme)):
     credentials_exception = HTTPException(
         status_code=status.HTTP_401_UNAUTHORIZED,

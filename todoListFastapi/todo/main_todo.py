@@ -17,6 +17,7 @@ todo_route = APIRouter(
     dependencies=[Depends(get_current_user), Depends(json_request_dependency)],
 )
 
+#Makes the todo. Is a post request
 @todo_route.post("/create-todo")
 async def create_todo(input_todo:todo_schema, current_user = Depends(get_current_user)):
     empty_checker(input_todo.title, "Title")
@@ -29,6 +30,7 @@ async def create_todo(input_todo:todo_schema, current_user = Depends(get_current
         raise HTTPException(status_code=500, detail="Internal Server Error")
     return {"Message": "Todo Created"}
 
+#Get Request to get the todos
 @todo_route.get("/get-todo")
 async def get_todo(current_user = Depends(get_current_user)):
     try:
@@ -44,7 +46,7 @@ async def get_todo(current_user = Depends(get_current_user)):
     except:
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
-
+#Update the todo using this put request
 @todo_route.put("/update-todo")
 async def update_todo(update_todo:update_todo_schema, current_user = Depends(get_current_user)):
     empty_checker(update_todo.id, "Id")
@@ -56,6 +58,7 @@ async def update_todo(update_todo:update_todo_schema, current_user = Depends(get
         raise HTTPException(status_code=500, detail="Could Not Find the Document")
     return {"Message": "Todo Updated"}
 
+#Delete the todos using this delete request
 @todo_route.delete("/delete-todo")
 async def delete_todo(delete_todo:delete_todo_schema, current_user = Depends(get_current_user)):
     empty_checker(delete_todo.id, "Id")

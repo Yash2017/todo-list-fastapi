@@ -1,3 +1,6 @@
+'''
+Function to return the log in the right format
+'''
 def request_log_maker(request, request_body):
         return {
             'req': {
